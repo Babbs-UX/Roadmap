@@ -153,6 +153,23 @@
         <div id="canvas">
         </div>
 
+<script>
+
+<div id="phpInsert"></div>
+
+function myFunction(){
+    const result = '<?php echo "Hello World" ?>';
+    document.getElementById("phpInsert").innerHTML = result;
+}
+
+myFunction();
+
+setInterval(function(){
+    myFunction()
+}, 30000)
+
+</script>
+        
     </body>
     </html>
     
