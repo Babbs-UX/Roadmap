@@ -646,3 +646,9 @@ transition: all .3s cubic-bezier(.05,.03,.35,1);
 #canvas{
     background-color: #253134;
 }
+
+.save{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
